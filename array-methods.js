@@ -21,8 +21,11 @@ const prices = products.map(product => product.price);
 // filter
 
 const cheap = products.filter(product => product.price < 5000);
-console.log(cheap);
+// console.log(cheap);
 
 
 const findN = products.filter(product => product.name.includes('n'));
-console.log(findN)
+// console.log(findN)
+
+const findCheap = products.find(product => product.price < 5000);
+console.log(findCheap)
