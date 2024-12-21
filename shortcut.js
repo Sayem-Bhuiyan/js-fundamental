@@ -45,4 +45,3 @@ const hideUser = () => console.log('hide user');
 
 isActive && showUser();
 
-isActive = !isActive;
